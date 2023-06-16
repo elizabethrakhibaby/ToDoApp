@@ -40,4 +40,6 @@ useEffect(() => {
 
 We used the OR (||) operator to assign an empty object to the data variable if we have no data in the path we are reading from. Note that here we are returning the return value of the onValue function to unsubscribe from the Firebase event handler when the React component unmouts — the useEffect hook’s return value is helpful for cleanups like this. Here we used the useEffect hook with an empty dependency array to register the event handler only once with the first render of the App component.
 
+Credits: https://blog.logrocket.com/storing-retrieving-data-react-native-apps-firebase/
+
 
