@@ -1,6 +1,6 @@
 # ToDoApp
 
-<h3>Required dependencies: </h3>
+<h5>Required dependencies: </h5>
 npm install firebase
 npm install @react-native-community/checkbox
 
